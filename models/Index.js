@@ -34,3 +34,4 @@ module.exports = {
   ProductTag,
 };
 
+// renamed file from Index.js to index.js, having issues with the file name being capitalized.
