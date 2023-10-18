@@ -24,3 +24,5 @@ const seedAll = async () => {
 };
 
 seedAll();
+
+// dv seeded with all data
