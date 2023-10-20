@@ -15,7 +15,7 @@ E-commerce ORM is a back end application for an e-commerce site that implements 
 * [Questions](#questions)
 
 ## Installation
-In order to run users must first create the database through source schema in mysql, then run the seeds in node, and then initialize the server with node server.js.
+In order to run this application, users must first create the database through source schema in mysql, then run the seeds in node, and then initialize the server with node server.js.
 
 ## Links
 [Github Repo](https://github.com/brennysouza/ecommerce-orm)
