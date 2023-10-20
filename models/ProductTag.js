@@ -1,9 +1,12 @@
 const { Model, DataTypes } = require('sequelize');
 
+// sequelize connection.js file
 const sequelize = require('../config/connection.js');
 
+// create our ProductTag model
 class ProductTag extends Model {}
 
+// define columns in ProductTag model
 ProductTag.init(
   {
     // define columns
@@ -13,6 +16,7 @@ ProductTag.init(
       primaryKey: true,
       autoIncrement: true
     },
+    // define product_id column
     product_id: {
       type: DataTypes.INTEGER, 
       references: {
@@ -20,6 +24,7 @@ ProductTag.init(
         key: 'id'
       }
     },
+    // define tag_id column
     tag_id: {
       type: DataTypes.INTEGER, 
       references: {
@@ -28,6 +33,7 @@ ProductTag.init(
       }
     }
   },
+  // configure metadata
   {
     sequelize,
     timestamps: false,

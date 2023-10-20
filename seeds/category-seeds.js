@@ -1,5 +1,6 @@
 const { Category } = require('../models');
 
+// This code below is the seed data for the Category model.
 const categoryData = [
   {
     category_name: 'Shirts',
